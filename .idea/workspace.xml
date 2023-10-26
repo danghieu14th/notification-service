@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="685c3d1d-3ce9-412f-8435-a1f9cfb603fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/ApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/config/MailConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/CallBackNotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/CallBackNotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/SendNotificationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/GetNotificationAdminRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/GetNotificationAdminRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/NotificationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/NotificationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/SendNotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/SendNotificationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/response/GetNotificationAdminPageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/response/GetNotificationAdminPageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/GetNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/GetNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/GetNotificationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/GetNotificationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/dto/GetNotificationAdminDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/dto/GetNotificationAdminPageInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/SendEmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/SendNotificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/SendSmsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/dto/DataSendNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/dto/DataSendNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/ProviderSendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/ProviderSendService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/gmail/GmailSendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/gmail/GmailSendServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/twilio/TwilioSendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/twilio/TwilioSendServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migration/src/main/resources/db.changelog/changelog-1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/migration/src/main/resources/db.changelog/changelog-1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/config/SnakeCaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/config/SnakeCaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/dto/NotificationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/dto/NotificationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/NotificationHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/NotificationHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/repository/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/repository/NotificationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/ChannelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/ChannelType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/MessageStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/MessageStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/NotificationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/NotificationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/GlobalExceptionHandler.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/consumer">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/migrate">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/shared">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/shared">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/migration">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CoderId14&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fb5c9a90-1b1b-4b04-8af2-789a8bd012bd" />
+        <option name="url" value="https://github.com/CoderId14/notification-service.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2WbiUYj2urHalLHOqoCN8M0xvri" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelOrder2": "2",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth2": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/notification-service/migration/src/main/resources/db.changelog",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3137931",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "spring.configuration.checksum": "998bec5688c74c3c879ee9eed11b9533",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\notification-service\migration\src\main\resources\db.changelog" />
+      <recent name="E:\notification-service\api\src\main\resources" />
+      <recent name="E:\notification-service\shared\src\main\java\com\example\shared\config" />
+      <recent name="E:\notification-service\migrate\src\main\resources" />
+      <recent name="E:\notification-service\shared\src\main\java\com\example\shared\database\entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\notification-service\api\src\main\java\com\example\api\config" />
+      <recent name="E:\notification-service" />
+      <recent name="E:\notification-service\migration\src\main\resources" />
+      <recent name="E:\notification-service\migrate\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.api.service.get.dto.request" />
+      <recent name="com.example.api.service.get.dto.response" />
+      <recent name="com.example.api.controller.dto.request" />
+      <recent name="com.example.api.controller" />
+      <recent name="com.example.shared.utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
+    <configuration name="SharedApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.shared.SharedApplication" />
+      <module name="notification-service.shared.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.shared.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="notification-service:migration [update]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/migration" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="update" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="notification-service:shared [diffChangeLog]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/shared" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="diffChangeLog" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="notification-service:shared [diff]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/shared" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="diff" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="notification-service:shared [generateChangelog]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/shared" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="generateChangelog" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="com.example.notification-service.api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.api.ApiApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH=".env" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service.consumer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer.ConsumerApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service.consumer.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MigrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service.migration.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.migration.MigrationApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH=".env" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SharedApplication" />
+      <item itemvalue="Gradle.notification-service:migration [update]" />
+      <item itemvalue="Gradle.notification-service:shared [diff]" />
+      <item itemvalue="Gradle.notification-service:shared [diffChangeLog]" />
+      <item itemvalue="Gradle.notification-service:shared [generateChangelog]" />
+      <item itemvalue="Spring Boot.MigrationApplication" />
+      <item itemvalue="Spring Boot.ApiApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.notification-service:migration [update]" />
+        <item itemvalue="Application.SharedApplication" />
+        <item itemvalue="Gradle.notification-service:shared [generateChangelog]" />
+        <item itemvalue="Gradle.notification-service:shared [diff]" />
+        <item itemvalue="Gradle.notification-service:shared [diffChangeLog]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="685c3d1d-3ce9-412f-8435-a1f9cfb603fc" name="Changes" comment="" />
+      <created>1697007699577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697007699577</updated>
+      <workItem from="1697007700403" duration="4693000" />
+      <workItem from="1697160781500" duration="4096000" />
+      <workItem from="1697424896313" duration="2892000" />
+      <workItem from="1697437195147" duration="10548000" />
+      <workItem from="1697506699767" duration="14129000" />
+      <workItem from="1697529796023" duration="8403000" />
+      <workItem from="1697593096156" duration="10959000" />
+      <workItem from="1697621858937" duration="1287000" />
+      <workItem from="1697683327759" duration="7600000" />
+      <workItem from="1697721559395" duration="8045000" />
+      <workItem from="1697766175223" duration="4704000" />
+      <workItem from="1697784748321" duration="5054000" />
+      <workItem from="1697791647466" duration="591000" />
+      <workItem from="1697792691070" duration="805000" />
+      <workItem from="1697793867736" duration="2605000" />
+      <workItem from="1697943405110" duration="10871000" />
+      <workItem from="1698025185801" duration="2797000" />
+      <workItem from="1698028115018" duration="26524000" />
+      <workItem from="1698110505440" duration="28758000" />
+      <workItem from="1698151259439" duration="3242000" />
+      <workItem from="1698155550068" duration="8927000" />
+      <workItem from="1698198341553" duration="13549000" />
+      <workItem from="1698212452650" duration="269000" />
+      <workItem from="1698212732844" duration="170000" />
+      <workItem from="1698212912941" duration="470000" />
+      <workItem from="1698213393574" duration="8887000" />
+      <workItem from="1698222880706" duration="3140000" />
+      <workItem from="1698227883737" duration="2341000" />
+      <workItem from="1698284369318" duration="26084000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/twilio/TwilioSendServiceImpl.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/service/CallBackNotificationService.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/controller/CallBackNotificationController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/service/NotificationService.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

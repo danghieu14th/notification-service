@@ -1,0 +1,12 @@
+# Project exclude paths
+/.gradle/
+/api/.gradle/
+/api/build/
+/api/build/classes/java/main/
+/consumer/.gradle/
+/migration/build/
+/migration/build/classes/java/main/
+/shared/.gradle/
+/shared/build/
+/shared/build/classes/java/main/
+.env

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/com.example.notification-service.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/com.example.notification-service.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/com.example.notification-service.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/com.example.notification-service.shared.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/notification-service.api.main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/notification-service.api.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/notification-service.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/notification-service.shared.main.iml" />
+    </modules>
+  </component>
+</project>
