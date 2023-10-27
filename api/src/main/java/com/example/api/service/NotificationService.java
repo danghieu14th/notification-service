@@ -5,8 +5,8 @@ import com.example.api.controller.dto.request.UserData;
 import com.example.api.service.get.GetNotification;
 import com.example.api.service.get.dto.request.GetNotificationAdminPageInput;
 import com.example.api.service.get.dto.request.GetNotificationCustomerPageInput;
-import com.example.api.service.get.dto.response.GetNotificationAdminResponse;
-import com.example.api.service.get.dto.response.GetNotificationCustomerResponse;
+import com.example.api.controller.dto.response.GetNotificationAdminResponse;
+import com.example.api.controller.dto.response.GetNotificationCustomerResponse;
 import com.example.api.service.send.dto.DataSendNotification;
 import com.example.api.service.send.dto.SendNotificationInput;
 import com.example.api.service.send.provider.ProviderSendService;
@@ -61,7 +61,7 @@ public class NotificationService {
         String config = providerIntegration.getConfig();
         List<UserData> userData = request.getTo();
         String body = template.getBody();
-        Context context = new Context();
+        
         for (UserData data : userData){
 
             Optional<User> userOptional = userRepository.findById(data.getUserId());
@@ -70,12 +70,7 @@ public class NotificationService {
             }
             User user = userOptional.get();
 
-            //set data for template
-            for(NotificationData notificationData : data.getData()){
-                context.setVariable(notificationData.getKey(), notificationData.getValue());
-            }
-            //convert template
-            body = templateEngine.process(body, context);
+            body = getBody(data, body);
 
             //save notification before send
             Notification notification = Notification.builder()
@@ -122,6 +117,24 @@ public class NotificationService {
             notificationHistoryRepository.save(notificationHistoryAfter);
         }
     }
+
+    private String getBody(UserData data, String body) {
+        Context context = new Context();
+        //set data for template
+        for(NotificationData notificationData : data.getData()){
+            String key = notificationData.getKey();
+            String pattern1 = "${" + key + "}";
+            String pattern2 = "[[\\$\\{" + key + "\\}]]";
+            if (body.contains(pattern1) || body.contains(pattern2)) {
+                context.setVariable(key, notificationData.getValue());
+            } else {
+                throw new ResourceNotFoundException("Template Key", "key", key);
+            }
+        }
+        //convert template
+        return templateEngine.process(body, context);
+    }
+
     public GetNotificationAdminResponse getNotificationAdminPage(GetNotificationAdminPageInput input, Pageable pageable) {
 
         return GetNotificationAdminResponse.from(getNotification.getNotificationAdminPage(input, pageable));

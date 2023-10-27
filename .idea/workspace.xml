@@ -5,46 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="685c3d1d-3ce9-412f-8435-a1f9cfb603fc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/ApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/config/MailConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/CallBackNotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/CallBackNotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/SendNotificationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/CallBackMessageTwilio.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/GetNotificationAdminRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/GetNotificationAdminRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/NotificationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/NotificationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/SendNotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/SendNotificationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/UserData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/response/GetNotificationAdminPageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/response/GetNotificationAdminPageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/GetNotificationCustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/GetNotificationCustomerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/response/GetNotificationAdminPageResponse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/GetNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/GetNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/GetNotificationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/GetNotificationImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/dto/GetNotificationAdminDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/dto/GetNotificationAdminPageInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/SendEmailService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/SendNotificationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/SendSmsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/dto/DataSendNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/dto/DataSendNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/ProviderSendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/ProviderSendService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/gmail/GmailSendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/gmail/GmailSendServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/twilio/TwilioSendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/twilio/TwilioSendServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migration/src/main/resources/db.changelog/changelog-1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/migration/src/main/resources/db.changelog/changelog-1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/config/SnakeCaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/config/SnakeCaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/dto/NotificationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/dto/NotificationDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/Notification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/NotificationHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/NotificationHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/Template.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/repository/NotificationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/repository/NotificationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/ChannelType.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/ChannelType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/MessageStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/MessageStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/NotificationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/enumeration/NotificationType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/dto/response/GetNotificationAdminResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/response/GetNotificationAdminResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/dto/response/GetNotificationCustomerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/response/GetNotificationCustomerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/utils/PageableUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/utils/PageableUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,13 +115,13 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/notification-service/migration/src/main/resources/db.changelog",
+    "last_opened_file_path": "E:/notification-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3137931",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
@@ -406,6 +376,8 @@
       <workItem from="1698222880706" duration="3140000" />
       <workItem from="1698227883737" duration="2341000" />
       <workItem from="1698284369318" duration="26084000" />
+      <workItem from="1698328306487" duration="1560000" />
+      <workItem from="1698370506399" duration="5841000" />
     </task>
     <servers />
   </component>
@@ -445,11 +417,6 @@
           <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/controller/CallBackNotificationController.java</url>
           <line>30</line>
           <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/service/NotificationService.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,4 @@
-package com.example.api.service.get.dto.response;
+package com.example.api.controller.dto.response;
 
 import com.example.api.service.get.dto.request.GetNotificationAdminDto;
 import lombok.Builder;

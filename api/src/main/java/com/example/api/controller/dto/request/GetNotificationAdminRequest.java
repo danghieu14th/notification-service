@@ -44,8 +44,9 @@ public class GetNotificationAdminRequest {
     @Max(value = 100, message = "Page size must be less than or equal to 100")
     private Integer size;
 
-    @EnumValidator(enumClass = SortBy.class)
-    private SortBy sortBy;
+//    @EnumValidator(enumClass = SortBy.class)
+//    private SortBy sortBy;
+    private String sortBy;
     @EnumValidator(enumClass = SortDirection.class)
     private SortDirection sortDirection;
 
