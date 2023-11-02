@@ -23,6 +23,8 @@ public class Notification extends BaseEntity {
     @Column(name = "arguments", columnDefinition = "json")
     private String arguments;
 
+    private String title;
+
     private String body;
 
     @Column(name = "type", nullable = false)

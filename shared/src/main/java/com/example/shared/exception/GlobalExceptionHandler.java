@@ -1,6 +1,7 @@
 package com.example.shared.exception;
 
 import com.example.shared.response.CommonResponse;
+import org.checkerframework.checker.units.qual.C;
 import org.springframework.core.convert.ConversionFailedException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,11 +16,17 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.security.InvalidParameterException;
 
-@RestControllerAdvice // @ControllerAdvice + @ResponseBody
+@ControllerAdvice // @ControllerAdvice + @ResponseBody
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(ResourceNotFoundException.class)
-    public ResponseEntity<Object> handleResourceNotFoundException(ResourceNotFoundException e) {
+    @ExceptionHandler(GimoException.class)
+    public ResponseEntity<Object> handleResourceNotFoundException(GimoException e) {
+        e.printStackTrace();
+
+        return new ResponseEntity<>(CommonResponse.badRequest(e.getMessage()), HttpStatus.BAD_REQUEST);
+    }
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<Object> handleConversionFailedException(IllegalArgumentException e) {
         e.printStackTrace();
 
         return new ResponseEntity<>(CommonResponse.badRequest(e.getMessage()), HttpStatus.BAD_REQUEST);
@@ -28,10 +35,9 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Object> handleValidationException(BindException e) {
         BindingResult bindingResult = e.getBindingResult();
         StringBuilder errorMessage = new StringBuilder();
-
+        e.printStackTrace();
         for (ObjectError objectError : bindingResult.getAllErrors()) {
-            if (objectError instanceof FieldError) {
-                FieldError fieldError = (FieldError) objectError;
+            if (objectError instanceof FieldError fieldError) {
                 errorMessage.append(fieldError.getField())
                         .append(": ")
                         .append(fieldError.getDefaultMessage())
@@ -42,12 +48,6 @@ public class GlobalExceptionHandler {
             }
         }
         return new ResponseEntity<>(CommonResponse.badRequest(errorMessage.toString()), HttpStatus.BAD_REQUEST);
-    }
-    @ExceptionHandler(IllegalArgumentException.class)
-    public ResponseEntity<Object> handleConversionFailedException(IllegalArgumentException e) {
-        e.printStackTrace();
-
-        return new ResponseEntity<>(CommonResponse.badRequest(e.getMessage()), HttpStatus.BAD_REQUEST);
     }
 
 

@@ -3,6 +3,7 @@ package com.example.shared.exception;
 public enum ErrorCodeList {
     InternalServerError("500", "Internal Server Error", true),
     InvalidParameter("400", "Invalid Parameter"),
+    RESOURCE_NOT_FOUND("400", "%s not found with %s : '%s'", false),
     ;
 
     private final String code;

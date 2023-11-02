@@ -4,31 +4,21 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
 https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
-
-
-    <changeSet id="1698112144532_00" author="hieudt">
-        <tagDatabase tag="1"/>
+    <changeSet id="1698112102956_00" author="hieudt">
+        <tagDatabase tag="2"/>
     </changeSet>
-    <changeSet id="1698112144532_01" author="hieudt">
+    <changeSet id="1698112102956_01" author="hieudt">
         <sql>
-            CREATE TABLE notification_history
+            CREATE TABLE test
             (
-                id                      BIGINT AUTO_INCREMENT PRIMARY KEY,
-                notification_id         BIGINT,
-                status                  VARCHAR(255),
-                message                 TEXT,
-                provider_integration_id BIGINT,
-                completed_at            DATETIME,
-                created_at              DATETIME NOT NULL,
-                updated_at              DATETIME NOT NULL,
-                created_by              varchar(255),
-                updated_by              varchar(255),
-                FOREIGN KEY (notification_id) REFERENCES notification (id)
+                id   bigint PRIMARY KEY AUTO_INCREMENT,
+                name VARCHAR(255),
+                UNIQUE KEY name (name)
             );
         </sql>
         <rollback>
             <sql>
-                DROP TABLE notification_history;
+                drop table test;
             </sql>
         </rollback>
     </changeSet>

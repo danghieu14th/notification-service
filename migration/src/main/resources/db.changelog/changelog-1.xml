@@ -82,6 +82,21 @@ https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
                 created_by  varchar(255),
                 updated_by  varchar(255)
             );
+
+            CREATE TABLE notification_history
+            (
+                id                      BIGINT AUTO_INCREMENT PRIMARY KEY,
+                notification_id         BIGINT,
+                status                  VARCHAR(255),
+                message                 TEXT,
+                provider_integration_id BIGINT,
+                completed_at            DATETIME,
+                created_at              DATETIME NOT NULL,
+                updated_at              DATETIME NOT NULL,
+                created_by              varchar(255),
+                updated_by              varchar(255),
+                FOREIGN KEY (notification_id) REFERENCES notification (id)
+            );
             ALTER TABLE notification
                 ADD CONSTRAINT fk_notification_user
                     FOREIGN KEY (user_id) REFERENCES user (id);

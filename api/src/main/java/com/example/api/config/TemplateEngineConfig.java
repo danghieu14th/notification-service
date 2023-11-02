@@ -4,16 +4,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.thymeleaf.TemplateEngine;
-import org.thymeleaf.spring5.SpringTemplateEngine;
-import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.StringTemplateResolver;
 
 @Configuration
 public class TemplateEngineConfig {
 
-    @Bean
-    @Primary
+    @Bean(name = "stringTemplateEngine")
     public TemplateEngine templateEngine() {
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(stringTemplateResolver());

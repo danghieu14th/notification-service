@@ -7,6 +7,7 @@ import com.example.shared.database.entity.NotificationHistory;
 import com.example.shared.database.repository.NotificationHistoryRepository;
 import com.example.shared.database.repository.NotificationRepository;
 import com.example.shared.enumeration.MessageStatus;
+import com.example.shared.exception.ResourceNotFoundException;
 import com.example.shared.utils.JsonMapper;
 import com.twilio.Twilio;
 import com.twilio.rest.api.v2010.account.Message;
@@ -23,13 +24,12 @@ import java.util.Optional;
 @RequiredArgsConstructor
 @Slf4j
 public class TwilioSendServiceImpl implements ProviderSendService {
-    private final NotificationHistoryRepository notificationHistoryRepository;
     private final NotificationRepository notificationRepository;
     @Override
     public void send(String config, DataSendNotification data) {
         TwilioProviderIntegrationConfig twilioConfig = JsonMapper.convertJsonToObject(config, TwilioProviderIntegrationConfig.class);
         if(twilioConfig == null){
-            throw new RuntimeException("TwilioProviderIntegrationConfig is null");
+            throw new ResourceNotFoundException("Provider Config", "provider", "twilio");
         }
         Twilio.init(
                 twilioConfig.getAccountSid(),

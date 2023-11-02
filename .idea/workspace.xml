@@ -4,17 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="685c3d1d-3ce9-412f-8435-a1f9cfb603fc" name="Changes" comment="">
+    <list default="true" id="685c3d1d-3ce9-412f-8435-a1f9cfb603fc" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/migration/notification-service.migration.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/dto/NotificationSearchInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/CommonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/NotificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/CallBackMessageTwilio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/GetNotificationAdminRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/GetNotificationAdminRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/GetNotificationCustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/GetNotificationCustomerRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/response/GetNotificationAdminPageResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/config/TemplateEngineConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/config/TemplateEngineConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/SendNotificationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/SendNotificationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/request/UserData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/dto/response/GetNotificationAdminResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/response/GetNotificationAdminResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/get/dto/response/GetNotificationCustomerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controller/dto/response/GetNotificationCustomerResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/utils/PageableUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/utils/PageableUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/twilio/TwilioSendServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/twilio/TwilioSendServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/utils/MailBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/utils/TemplateConvert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migration/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/migration/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migration/src/main/java/com/example/migration/MigrationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/migration/src/main/java/com/example/migration/MigrationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migration/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/migration/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migration/src/main/resources/db.changelog/changelog-1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/migration/src/main/resources/db.changelog/changelog-1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migration/src/main/resources/db.changelog/changelog-2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/migration/src/main/resources/db.changelog/changelog-2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/SharedApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/database/entity/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/ErrorCodeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/ErrorCodeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/example/shared/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/com/example/shared/SharedApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,40 +120,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelOrder2": "2",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RequestMappingsPanelWidth2": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/notification-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3137931",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "spring.configuration.checksum": "998bec5688c74c3c879ee9eed11b9533",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/notification-service/migration/src/main/resources/db.changelog&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3137931&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;998bec5688c74c3c879ee9eed11b9533&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\notification-service\migration\src\main\resources\db.changelog" />
@@ -149,28 +169,15 @@
       <recent name="E:\notification-service\migrate\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.shared.exception" />
       <recent name="com.example.api.service.get.dto.request" />
       <recent name="com.example.api.service.get.dto.response" />
       <recent name="com.example.api.controller.dto.request" />
       <recent name="com.example.api.controller" />
-      <recent name="com.example.shared.utils" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ApiApplication">
-    <configuration name="SharedApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.shared.SharedApplication" />
-      <module name="notification-service.shared.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.shared.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="notification-service:migration [update]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="notification-service:migration [rollbackCount] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/migration" />
@@ -181,7 +188,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="update" />
+            <option value="rollbackCount" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -192,68 +199,72 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="notification-service:shared [diffChangeLog]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="notification-service:migration [rollback] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/shared" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/migration" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="diffChangeLog" />
+            <option value="rollback" />
+            <option value="--tag=myTag" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <EXTENSION ID="com.intellij.execution.ExternalSystemRunConfigurationJavaExtension">
+        <extension name="net.ashald.envfile">
+          <option name="IS_ENABLED" value="false" />
+          <option name="IS_SUBST" value="false" />
+          <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+          <option name="IS_IGNORE_MISSING_FILES" value="false" />
+          <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+          <ENTRIES>
+            <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          </ENTRIES>
+        </extension>
+      </EXTENSION>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="notification-service:shared [diff]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="notification-service:migration [rollback]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/shared" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/migration" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="diff" />
+            <option value="rollback" />
+            <option value="--tag=myTag" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="notification-service:shared [generateChangelog]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/shared" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="generateChangelog" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <EXTENSION ID="com.intellij.execution.ExternalSystemRunConfigurationJavaExtension">
+        <extension name="net.ashald.envfile">
+          <option name="IS_ENABLED" value="false" />
+          <option name="IS_SUBST" value="false" />
+          <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+          <option name="IS_IGNORE_MISSING_FILES" value="false" />
+          <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+          <ENTRIES>
+            <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          </ENTRIES>
+        </extension>
+      </EXTENSION>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
       <method v="2" />
@@ -318,12 +329,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile builder" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="eclipse-temurin17-jre-alpine_builder" />
+          <option name="buildCliOptions" value="--target builder" />
+          <option name="buildKitEnabled" value="true" />
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.migration: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="migration" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.SharedApplication" />
-      <item itemvalue="Gradle.notification-service:migration [update]" />
-      <item itemvalue="Gradle.notification-service:shared [diff]" />
-      <item itemvalue="Gradle.notification-service:shared [diffChangeLog]" />
-      <item itemvalue="Gradle.notification-service:shared [generateChangelog]" />
+      <item itemvalue="Docker.docker-compose.yml.migration: Compose Deployment" />
+      <item itemvalue="Docker.Dockerfile builder" />
+      <item itemvalue="Gradle.notification-service:migration [rollbackCount] (1)" />
+      <item itemvalue="Gradle.notification-service:migration [rollback]" />
+      <item itemvalue="Gradle.notification-service:migration [rollback] (1)" />
       <item itemvalue="Spring Boot.MigrationApplication" />
       <item itemvalue="Spring Boot.ApiApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
@@ -331,11 +379,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.notification-service:migration [update]" />
-        <item itemvalue="Application.SharedApplication" />
-        <item itemvalue="Gradle.notification-service:shared [generateChangelog]" />
-        <item itemvalue="Gradle.notification-service:shared [diff]" />
-        <item itemvalue="Gradle.notification-service:shared [diffChangeLog]" />
+        <item itemvalue="Docker.docker-compose.yml.migration: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile builder" />
+        <item itemvalue="Gradle.notification-service:migration [rollback] (1)" />
+        <item itemvalue="Gradle.notification-service:migration [rollback]" />
+        <item itemvalue="Gradle.notification-service:migration [rollbackCount] (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -377,12 +425,40 @@
       <workItem from="1698227883737" duration="2341000" />
       <workItem from="1698284369318" duration="26084000" />
       <workItem from="1698328306487" duration="1560000" />
-      <workItem from="1698370506399" duration="5841000" />
+      <workItem from="1698370506399" duration="15970000" />
+      <workItem from="1698630831975" duration="23132000" />
+      <workItem from="1698716071751" duration="8147000" />
+      <workItem from="1698802499405" duration="18084000" />
+      <workItem from="1698830654457" duration="3453000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1698377006225</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698377006225</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.security:spring-security-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.validation:jakarta.validation-api" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.cloud:spring-cloud-context" />
+    <option featureType="dependencySupport" implementationName="java:org.hibernate.validator:hibernate-validator" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.thymeleaf:thymeleaf" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -399,15 +475,12 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/service/send/provider/twilio/TwilioSendServiceImpl.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/service/CallBackNotificationService.java</url>
           <line>21</line>
@@ -417,6 +490,21 @@
           <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/controller/CallBackNotificationController.java</url>
           <line>30</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/migration/src/main/java/com/example/migration/MigrationApplication.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/service/NotificationService.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/service/NotificationService.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="61" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
