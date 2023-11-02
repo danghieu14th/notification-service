@@ -1,5 +1,0 @@
-rootProject.name = 'notification-service'
-include 'api'
-include 'shared'
-include 'consumer'
-include 'migration'
